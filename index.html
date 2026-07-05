@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang ="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> iTask Manager Web </title>
+    
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <main class = "principal">
+        <h1>iTask Manager</h1>
+        <p>Gerencie e Organize suas tarefas de maneira prática</p>
+
+        <form id="form-tarefa">
+            <div class="campo">
+                <label for="titulo-tarefa">Título</label>
+                <input 
+                    type="text"
+                    id="titulo-tarefa"
+                    placeholder="Digite o titulo da tarefa"
+                    required
+                />
+            </div>
+
+            <div class="campo">
+                <label for="descricao-tarefa">Descrição</label>
+                <textarea
+                    id="descricao-tarefa"
+                    placeholder="Digite uma descrição"
+                    ></textarea>
+            </div>
+
+            <button type="submit">Adiciona tarefa </button>
+        </form>
+        <section class="area-de-tarefas">
+            <h2> Tarefas</h2>
+
+            <p id="mensagem-vazia">Nenhuma tarefa adicionada ainda.</p>
+
+            <div id="lista-tarefas"></div>
+        </section>
+    </main> 
+</body>
+</html>
