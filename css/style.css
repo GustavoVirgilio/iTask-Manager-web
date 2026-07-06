@@ -116,7 +116,7 @@ button:hover {
 
 .tarefa-card.concluida {
   opacity: 0.6;
-  background-color: #e5e7eb;
+  background-color: #dadfe9;
 }
 
 .tarefa-card.concluida h3,
