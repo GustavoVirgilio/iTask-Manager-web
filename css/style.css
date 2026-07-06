@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+.principal {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.campo {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.area-de-tarefas {
+  margin-top: 24px;
+}
+
+.area-de-tarefas h2 {
+  margin-bottom: 12px;
+}
+
+#mensagem-vazia {
+  color: #666;
+}
+
+.tarefa-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.tarefa-card input[type="checkbox"] {
+  width: auto;
+  margin-top: 4px;
+}
+
+.conteudo-tarefa h3 {
+  margin-bottom: 6px;
+}
+
+.conteudo-tarefa p {
+  margin-bottom: 8px;
+}
+
+.conteudo-tarefa small {
+  color: #666;
+}
+
+.tarefa-card.concluida {
+  opacity: 0.6;
+  background-color: #e5e7eb;
+}
+
+.tarefa-card.concluida h3,
+.tarefa-card.concluida p {
+  text-decoration: line-through;
+}
